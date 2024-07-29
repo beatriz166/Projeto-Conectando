@@ -1,0 +1,95 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar li{
+    float: left;
+}
+.nav-bar a{
+     display: block;/*Tornar os links clicáveis em toda área do item*/
+     color: black;/*Cor do texto branco*/
+     text-align: center;/*Centralizar o texto*/
+     padding: 14px 16px;/*Espaçamento interno*/
+     text-decoration: none;/*Remove o sublinhado dos links*/
+}
+
+
+/*ESTILIZAÇÃO INDEX*/
+.card-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    border: 1px solid #ccc;
+    background-color: orange;
+    padding: 20px;
+    margin: 10px;
+    max-width: 400px;
+
+}
+/*BOTÃO INDEX*/
+.Botão-Saiba-Mais{
+    background-color: orangered;
+
+    border: none;
+    border-radius: 5px;
+    padding: 5px 32px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;/*JUNTAR AS BORDAS DAS CÉLULAS*/
+    width: 80%;/*LARGURA*/
+    margin: 20px auto;/*MARGEM. CENTRALIZAR TABELA*/
+}
+th,td{
+    border: 1px solid #ddd;/*BORDA*/
+    padding: 12px;/*ESPAÇO INTERNO*/
+    text-align: left;/*ALINHAMENTO DO TEXTO À ESQUERDA*/
+}
+th{
+    background-color: #f2f2f2;/*COR DE FUNDO*/
+    font-weight: bold;/*PESO DA FONTE -> ESTÁ EM NEGRITO*/
+}
+.botao{
+    background-color: lightpink;
+
+    border: none;
+    border-radius: 5px;
+    padding: 5px 32px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+a{
+    text-decoration:none;
+}
+
+
+
+
+
+form{
+    border: 1px solid #ccc;
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.uma{
+    border-radius: 50%;
+    margin: 1.2%;
+}
+.imagem-roda-pe{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}

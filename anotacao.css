@@ -1,0 +1,13 @@
+
+.botao-inscrever{
+    background-color: darkslateblue;
+}
+.card-container{
+    background-color:aliceblue;
+    border: 5px double black;
+    border-radius: 9px;
+}
+body{
+    background-color:lightpink;
+    font-size:large;
+}
